@@ -22,11 +22,12 @@ namespace Tyuiu.ChetvertnyhAI.Sprint5.Task1.V30.Lib
             {
                 y = (Math.Cos(x) + ((Math.Sin(x)) / (2 - 2 * x)) - 4 * x);
                 y = Math.Round(y, 2);
-                
-                if (((Math.Sin(x)) / (2 - 2 * x)) == 0)
+
+                if ((2 - 2 * x) == 0)
                 {
                     y = 0;
                 }
+
                 strY = Convert.ToString(y);
 
                 if (x !=  stopValue)
