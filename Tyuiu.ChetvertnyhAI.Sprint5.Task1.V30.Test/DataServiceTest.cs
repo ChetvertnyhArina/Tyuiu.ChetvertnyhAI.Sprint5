@@ -7,8 +7,8 @@ namespace Tyuiu.ChetvertnyhAI.Sprint5.Task1.V30.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string path = @"C:\Users\chetv\source\repos\Tyuiu.ChetvertnyhAI.Sprint5\Tyuiu.ChetvertnyhAI.Sprint5.Task1.V30\bin\Debug\net8.0\OutputFileTask1.txt";
-            
+            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask1.txt");
+
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
