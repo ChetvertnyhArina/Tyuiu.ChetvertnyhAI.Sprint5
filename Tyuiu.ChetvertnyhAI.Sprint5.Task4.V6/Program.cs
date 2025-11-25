@@ -21,7 +21,7 @@ internal class Program
 
         
         DataService ds = new DataService();
-        string path = @"C:\DataSprint5\InPutDataFileTask4V6.txt";
+        string path = @"C:\ТИУ\DataSprint5\InPutDataFileTask4V6.txt";
 
         Console.WriteLine("Данные находятся в файле: " + path);
 
